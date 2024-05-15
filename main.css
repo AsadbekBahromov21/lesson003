@@ -1,0 +1,178 @@
+@font-face {
+    font-family: philosopher;
+    src: url(./font/Philosopher-Bold.woff);
+}
+@font-face {
+    font-family: roboto;
+    src: url(./font/Roboto-Medium.woff);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1248px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+.main__theme{
+    font-weight: roboto;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+    margin-top: 94px;
+    margin-bottom: 28px;
+}
+.main__text{
+    font-family: roboto;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.main__foto{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70.29px;
+}
+.main__button{
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    margin-bottom: 101px;
+}
+.main__btr{
+    width: 189px;
+    height: 40px;
+    border-radius: 30px;
+    background: #6F2CFF;
+    border: none;
+}
+.main__btr_info{
+    width: 189px;
+    height: 40px;
+    border-radius: 30px;
+    background: #ddd;
+    border: none;
+}
+.main__btr_info:hover{
+    cursor: pointer;
+    background: silver;
+}
+.main__btr{
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    top: 11px;
+    color: #ffff;
+}
+.main__btr:hover{
+    cursor: pointer;
+    background: silver;
+}
+.main__btr_info p{
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #6F2CFF
+}
+.main__h3{
+    font-family: roboto;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    color: black;
+    text-align: center;
+    margin-bottom: 70.25px;
+}
+.main__card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40.31px;
+}
+.main__card_foto{
+    width: 319.83px;
+    height: 438px;
+    border: none;
+    background:  #C0C0C080 50%;
+}
+.main__card_foto img{
+    margin-bottom: 22.25px;
+   
+}
+.card__img{
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.card__p{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: roboto;
+    line-height: 22px;
+    text-align: center;
+    color: #6F2CFF;
+}
+.main__h3_info{
+    font-family: roboto;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    color: black;
+    text-align: center;
+    margin-top: 70.25px;
+    margin-bottom: 12px;
+}
+.text__p{
+    font-family: roboto;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 43.22px;
+}
+.main__desc{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32.14px;
+}
+.desc__foto{
+    width: 40%;
+    height: 199px;
+    border-radius: 8px 10px 8px 10px ;
+    background: #17002E;
+    padding-top: 30.25px;
+    padding-left: 31.25px;
+    margin-bottom: 18px;
+    padding-right: 31.25px;
+}
+.desc__span{
+    font-family: roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #F5F5F5;
+    padding-bottom: 700px;
+}
+.desc__p{
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #F5F5F5;
+    margin-bottom: 3px;
+}
+.desc__info{
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #F5F5F5;
+    padding-bottom: 10px;
+}
